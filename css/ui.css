@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: 'Formular';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'AvenirNextCyr';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+h2 {
+  font-family: 'AvenirNextCyr';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+h3 {
+  font-family: 'AvenirNextCyr';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h6 {
+  font-family: 'AvenirNextCyr';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+p {
+  color: var(--text);
+}
+
+.container {
+  position: relative;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.container-medium {
+  max-width: 1060px;
+}
+
+.container-small {
+  max-width: 660px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.half-width {
+  width: 50%;
+}
+
+/* Buttons */
+.btn-white {
+  display: block;
+  font-family: 'Formular';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  transition: background 0.3s;
+}
+
+.btn {
+  display: block;
+  position: relative;
+  font-family: 'AvenirNextCyr';
+  transition: background 0.3s;
+}
+
+.btn-big {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.btn-medium {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-small {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.btn-header {
+  font-weight: 600;
+  padding: 40px 70px;
+}
+
+.btn-icon::before {
+  display: block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.btn-icon-left {
+  padding-left: 34px;
+}
+
+.btn-icon-right {
+  padding-right: 44px;
+}
+
+.btn-icon-arrow-right-white::before {
+  right: 24px;
+  background-image: url('/img/arrow-right-white.svg');
+}
+
+.btn-icon-arrow-right-blue::before {
+  right: 0;
+  background-image: url('/img/arrow-right-blue.svg');
+}
+
+.btn-icon-arrow-down::before {
+  left: 0;
+  background-image: url('/img/arrow-down-blue.svg');
+}
+
+.btn-icon-plus::before {
+  right: 24px;
+  background-image: url('/img/plus-white.svg');
+}
+
+.btn-icon-edit::before {
+  right: 0;
+  background-image: url('/img/edit-icon.svg');
+}
+
+.btn-icon-upload::before {
+  right: 0;
+  background-image: url('/img/upload-icon.svg');
+}
+
+.btn-color-main {
+  color: var(--brand-main);
+}
+
+.btn-hover-color-main {
+  color: var(--brand-main);
+}
+
+.btn-hover-color-main:hover {
+  color: var(--white);
+  background-color: var(--brand-main);
+}
+
+.btn-color-blue {
+  color: var(--btn);
+}
+
+.btn-color-white {
+  color: var(--white);
+}
+
+.btn-bg-main {
+  background-color: var(--brand-main);
+  padding: 15px 70px 15px 26px;
+  border: 1px solid #52a9a3;
+}
+
+.btn-bg-white {
+  color: var(--brand-main);
+  background-color: transparent;
+  padding: 6px 20px 8px 20px;
+  border: 1px solid var(--white);
+}
+
+.btn-bg-white:hover {
+  border: 1px solid var(--brand-main);
+}
+
+.back-btn {
+  width: 26px;
+  height: 25px;
+  background-image: url('/img/back-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-right: 78px;
+}
+
+.btn-row {
+  display: flex;
+}
+
+/* Card */
+.card {
+  padding: 30px 0;
+}
+
+.card h3 {
+  color: var(--brand-secondary);
+  margin: 30px 0 20px;
+}
+
+/* Profile Button */
+.profile-btn {
+  align-self: center;
+  width: 32px;
+  height: 32px;
+  background-image: url('/img/user-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-right: 80px;
+}
+
+/* Table */
+.company-icon {
+  width: 28px;
+  height: 28px;
+  background-image: url('/img/company-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-right: 20px;
+}

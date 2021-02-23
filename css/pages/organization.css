@@ -1,0 +1,286 @@
+.organization-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.organization-heading .heading-text {
+  display: flex;
+  align-items: center;
+}
+
+.organization-heading .btn {
+  margin-right: 50px;
+}
+
+.organization {
+  height: calc(100vh - 302px);
+  padding: 30px 0;
+}
+
+.organization .text-container {
+  padding-bottom: 20px;
+}
+
+.organization .wrapper {
+  align-items: flex-end;
+}
+
+.organization .btn-row {
+  align-items: center;
+}
+
+.table {
+  background-color: var(--white);
+  border: 1px solid var(--table);
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--table);
+  border-bottom: 1px solid var(--table);
+  padding: 26px 20px;
+}
+
+.table-row-heading {
+  padding: 9px 20px;
+}
+
+.table-row-heading p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.table-row-heading .column-name {
+  padding: 0 0 0 48px;
+}
+
+.column-name {
+  width: 35%;
+  padding: 0 20px 0 0;
+}
+
+.column-status {
+  width: 65%;
+  padding: 0 14px;
+}
+
+.column-status .btn-white {
+  margin-left: 18px;
+}
+
+.column-status .btn-white:first-child {
+  margin-left: 0;
+}
+
+.table-body {
+  overflow-y: scroll;
+  max-height: calc(100vh - 478px);
+}
+
+.table-none {
+  overflow-y: scroll;
+  max-height: calc(100vh - 478px);
+}
+
+.table-body p {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--brand-secondary);
+}
+
+.table-body-budgets p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.table-body-budgets .btn-row {
+  justify-content: flex-end;
+}
+
+.table-body .column-name,
+.table-body .column-status {
+  display: flex;
+  align-items: center;
+}
+
+.table-body .column-status {
+  justify-content: space-between;
+}
+
+.company-icon-custom {
+  background-image: url('/img/company-icon-custom.svg');
+}
+
+.active .status p {
+  color: var(--brand-main);
+}
+
+.archived .status p {
+  color: var(--archived);
+}
+
+.details-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.organization .left-side {
+  width: 33%;
+}
+
+.organization .right-side {
+  width: 67%;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid var(--table);
+  padding: 16px 20px 18px;
+  margin-bottom: 20px;
+}
+
+.company .img-container {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.company-info {
+  margin-left: 24px;
+}
+
+.company-name h6 {
+  color: var(--brand-secondary);
+  margin-bottom: 8px;
+}
+
+.company-activity p {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.company-members p {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--text);
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  border: 1px solid var(--table);
+  padding: 48px 42px;
+  margin-bottom: 20px;
+}
+
+.lists .btn {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.members {
+  background-color: var(--white);
+  padding: 20px;
+  border: 1px solid var(--table);
+}
+
+.members-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--table);
+}
+
+.members-list {
+  overflow-y: scroll;
+  padding-right: 20px;
+  max-height: calc(100vh - 811px);
+}
+
+.member-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--table);
+}
+
+.member {
+  display: flex;
+  align-items: center;
+}
+
+.member .img-container {
+  max-width: 42px;
+  max-height: 42px;
+}
+
+.member-info {
+  margin-left: 22px;
+}
+
+.member-name p {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--brand-secondary);
+}
+
+.member-position p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.budgets {
+  background-color: var(--white);
+  border: 1px solid var(--table);
+  padding: 20px 25px;
+  margin-left: 20px;
+}
+
+.budgets-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--table);
+}
+
+.budgets .column {
+  width: 20%;
+}
+
+.dropdown-table {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--text);
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+.dropdown-table::before {
+  display: block;
+  content: '';
+  width: 8px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-image: url('/img/dropdown-table.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.dec p {
+  color: var(--error);
+}

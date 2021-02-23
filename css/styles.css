@@ -1,0 +1,9 @@
+@import '../css/normalize.css';
+@import '../css/fonts.css';
+@import '../css/var.css';
+@import '../css/ui.css';
+@import '../css/components/header.css';
+@import '../css/components/footer.css';
+@import '../css/pages/index.css';
+@import '../css/pages/authorization.css';
+@import '../css/pages/organization.css';

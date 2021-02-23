@@ -1,0 +1,132 @@
+.authorization .text-container {
+  text-align: center;
+}
+
+.authorization h2 {
+  margin-bottom: 30px;
+}
+
+.authorization .btn-row {
+  justify-content: center;
+}
+
+.form-wrapper {
+  max-width: 260px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 30px;
+}
+
+.form-row input {
+  position: relative;
+  width: 100%;
+  font-family: 'AvenirNextCyr';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-field);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-field);
+  padding: 9px 10px;
+}
+
+.form-row input::placeholder {
+  color: var(--text-field);
+}
+
+.form-row input:focus {
+  outline: none;
+}
+
+.password {
+  position: relative;
+}
+
+.password input {
+  padding-right: 34px;
+}
+
+.eye-icon {
+  display: block;
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-image: url('/img/input-eye.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.check-row {
+  text-align: left;
+  margin-bottom: 30px;
+  padding: 0 5px;
+}
+
+.check-row p {
+  padding: 2px 0 12px 30px;
+}
+
+.check {
+  position: relative;
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #697f86;
+  cursor: pointer;
+}
+
+.check-input {
+  position: absolute;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.check-input:checked + .check-box {
+  background-image: url(/img/check-box-icon.svg);
+}
+
+.check-input:focus + .check-box {
+  box-shadow: 0 0 0 2px #2d3a6a;
+}
+
+.check-box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  border-radius: 1px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  box-shadow: 0 0 0 2px #2d3a6a;
+  transition: box-shadow ease 0.3s;
+}
+
+.check-row a,
+.account a,
+.forgot a {
+  font-weight: 500;
+  color: var(--brand-main);
+}
+
+.account {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.forgot {
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 8px;
+}
