@@ -111,7 +111,7 @@
 }
 
 .company-icon-custom {
-  background-image: url('/img/company-icon-custom.svg');
+  background-image: url('/budgetProDemo/img/company-icon-custom.svg');
 }
 
 .active .status p {
@@ -276,7 +276,7 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  background-image: url('/img/dropdown-table.svg');
+  background-image: url('/budgetProDemo/img/dropdown-table.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

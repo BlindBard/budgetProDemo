@@ -15,7 +15,7 @@ header .left-side {
   display: block;
   width: 136px;
   height: 30px;
-  background-image: url('/img/main-logo.svg');
+  background-image: url('/budgetProDemo/img/main-logo.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 36px 80px;
@@ -36,7 +36,7 @@ header .left-side {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background-image: url('/img/dropdown-arrow.svg');
+  background-image: url('/budgetProDemo/img/dropdown-arrow.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

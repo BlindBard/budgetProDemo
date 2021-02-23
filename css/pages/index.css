@@ -1,6 +1,6 @@
 /* Hello */
 .hello {
-  background-image: url('/img/hallo-bg.jpg');
+  background-image: url('/budgetProDemo/img/hallo-bg.jpg');
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -21,7 +21,7 @@
 
 /* About */
 .about {
-  background-image: url('/img/about-bg.png');
+  background-image: url('/budgetProDemo/img/about-bg.png');
   background-repeat: no-repeat;
   background-position: top right 80px;
   margin-top: -170px;
@@ -52,13 +52,13 @@
 .description-wrapper::before {
   top: 0;
   left: 0;
-  background-image: url('/img/rectangle-top.svg');
+  background-image: url('/budgetProDemo/img/rectangle-top.svg');
 }
 
 .description-wrapper::after {
   right: 0;
   bottom: 0;
-  background-image: url('/img/rectangle-bottom.svg');
+  background-image: url('/budgetProDemo/img/rectangle-bottom.svg');
 }
 
 .description .text-container {
@@ -117,7 +117,7 @@
 
 /* Benefits */
 .benefits {
-  background-image: url('/img/benefits-bg.svg');
+  background-image: url('/budgetProDemo/img/benefits-bg.svg');
   background-repeat: no-repeat;
   background-position: top 120px right;
 }

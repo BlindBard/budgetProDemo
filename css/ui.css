@@ -165,32 +165,32 @@ p {
 
 .btn-icon-arrow-right-white::before {
   right: 24px;
-  background-image: url('/img/arrow-right-white.svg');
+  background-image: url('/budgetProDemo/img/arrow-right-white.svg');
 }
 
 .btn-icon-arrow-right-blue::before {
   right: 0;
-  background-image: url('/img/arrow-right-blue.svg');
+  background-image: url('/budgetProDemo/img/arrow-right-blue.svg');
 }
 
 .btn-icon-arrow-down::before {
   left: 0;
-  background-image: url('/img/arrow-down-blue.svg');
+  background-image: url('/budgetProDemo/img/arrow-down-blue.svg');
 }
 
 .btn-icon-plus::before {
   right: 24px;
-  background-image: url('/img/plus-white.svg');
+  background-image: url('/budgetProDemo/img/plus-white.svg');
 }
 
 .btn-icon-edit::before {
   right: 0;
-  background-image: url('/img/edit-icon.svg');
+  background-image: url('/budgetProDemo/img/edit-icon.svg');
 }
 
 .btn-icon-upload::before {
   right: 0;
-  background-image: url('/img/upload-icon.svg');
+  background-image: url('/budgetProDemo/img/upload-icon.svg');
 }
 
 .btn-color-main {
@@ -234,7 +234,7 @@ p {
 .back-btn {
   width: 26px;
   height: 25px;
-  background-image: url('/img/back-icon.svg');
+  background-image: url('/budgetProDemo/img/back-icon.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-right: 78px;
@@ -259,7 +259,7 @@ p {
   align-self: center;
   width: 32px;
   height: 32px;
-  background-image: url('/img/user-icon.svg');
+  background-image: url('/budgetProDemo/img/user-icon.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-right: 80px;
@@ -269,7 +269,7 @@ p {
 .company-icon {
   width: 28px;
   height: 28px;
-  background-image: url('/img/company-icon.svg');
+  background-image: url('/budgetProDemo/img/company-icon.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-right: 20px;

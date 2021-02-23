@@ -59,7 +59,7 @@
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
-  background-image: url('/img/input-eye.svg');
+  background-image: url('/budgetProDemo/img/input-eye.svg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   cursor: pointer;
@@ -91,7 +91,7 @@
 }
 
 .check-input:checked + .check-box {
-  background-image: url(/img/check-box-icon.svg);
+  background-image: url('/budgetProDemo/img/check-box-icon.svg');
 }
 
 .check-input:focus + .check-box {
